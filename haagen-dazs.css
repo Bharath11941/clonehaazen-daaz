@@ -1,0 +1,326 @@
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+.main-header{
+  width: 100%;
+  height: 56px;
+  background-color:#f1f1f1;
+}
+.main-header-flex{
+  width: 81%;
+  height: 100%;
+  margin-left: 148px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-left{
+  width: 190px;
+  height: 100%;
+ display: flex;
+ flex-direction: row;
+}
+.header-left1{
+  height: 100%;
+  width: 12px;
+}
+.header-left2{
+  height: 100%;
+  width: 39px;
+}
+.ice-cream-logo{
+  width: 38px;
+  height: 75%;
+  object-fit: cover;
+  margin-top: 6px;
+}
+.header-left3{
+  height: 100%;
+  width: 139px;
+}
+.heading-left3{
+  font-size: 12px;
+  margin: 0;
+  margin-top: 18px;
+  color: #000000bf;
+  margin-left: 7px;
+}
+.header-right{
+  width: 60px;
+  height: 100%;
+}
+.select{
+  background: none;
+  border: 0;
+  color: black;
+  font-weight: bold;
+  margin-top: 18px;
+  font-size: 11px;
+}
+.image-header{
+  width: 100%;
+  height: 241px;
+  background-image: url(HD_New_Tapestry\ 2.svg);
+  background-repeat: no-repeat;
+}
+.haagen-dazs-div{
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: 670px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.main-navigation{
+  width: 100%;
+  height: 50px;
+}
+.navigation-div{
+  width: 83%;
+  height: 100%;
+  margin-left: 148px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navigation-left{
+  width: 260px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navigation-heading{
+  height: 100%;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.p1{
+  font-size: 12px;
+  font-weight: bold;
+}
+.navigation-right{
+  width: 192px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navigation-right-1{
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.navigation-right-2{
+  width: 96px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.navigation-right-3{
+  width: 22px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.image-body{
+  width: 100%;
+  height: 490px;
+  background-image: url(images/cq5dam.web.1280.1280.jpeg);
+  margin-top: 6px;
+  position: absolute;
+  background-size: cover;
+}
+.h1-div{
+  width: 600px;
+  height: 260px;
+  margin-left: 148px;
+}
+.h1-class{
+  color: #f1f1f1;
+  font-weight: 600;
+  font-size: 74px;
+  padding-top: 41px;
+}
+.button-learn-more{
+  margin-left: 149px;
+  margin-top: 73px;
+  height: 50px;
+  width: 154px;
+  border-radius: 27px;
+  color: black;
+  border-style: solid;
+  font-weight: bold;
+  border-color: #030303;
+}
+.button-learn-more:hover{
+  background-color: #7c2529;
+  color: white;
+  border: none;
+}
+.picture-body{ 
+  width: 100%;
+  height: 577px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 496px;
+}
+.picture1-body{
+  width: 50%;
+  background-image: url(haagen-dazs-homepage-Lifestyle-1-1500x1140.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.picture2-body{
+  width: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image:url(haagen-dazs-homepage-Lifestyle-2-1500x1140.png)
+}
+.overlay{
+  width: 384px;
+  height: 175px;
+  margin-top: 203px;
+  margin-left: 184px;
+}
+.overlay-h1-1{
+  color: #fff;
+  font-weight: bold;
+  font-size: 39px;
+  margin: 0;
+  margin-left: 56px;
+  padding-top: 30px;
+}
+.overlay-h1-2{
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0;
+  margin-left: 65px;
+  padding-top: 30px;
+}
+.button-overlay{
+  margin-left: 124px;
+  margin-top: 35px;
+  height: 50px;
+  width: 154px;
+  border-radius: 27px;
+  color: black;
+  border-style: solid;
+  font-weight: bold;
+  border-color: #030303;
+}
+.button-overlay:hover{
+  background-color: #7c2529;
+  color: white;
+  border: none;
+}
+.juice-image-div{
+  width: 100%;
+  height: 490px;
+  background-image: url(cq5dam.web.1280.1280.jpeg);
+  background-size:cover;
+  margin-top: -67px;
+}
+.juice-image-inner-div{
+  height: 168px;
+  width: 83%;
+  margin-left: 148px;
+}
+.inner-div-h2{
+  color: #fff;
+  font-size: 38px;
+  margin-left: 224px;
+}
+.inner-learn-more-button{
+  margin-left: 355px;
+  margin-top: 34px;
+  height: 50px;
+  width: 154px;
+  border-radius: 27px;
+  color: black;
+  border-style: solid;
+  font-weight: bold;
+  border-color: #030303;
+}
+.inner-learn-more-button:hover{
+  background-color: #7c2529;
+  color: white;
+  border: none;
+}
+.footer{
+  width: 100%;
+  height: 200px;
+  background-image: url(HD_New_Tapestry\ 2.svg);
+  background-repeat: no-repeat;
+  padding-top: 28px;
+}
+.footer-section{
+  width: 81%;
+  height: 77px;
+  margin-left: 148px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer-logo{
+  width: 90px;
+  cursor: pointer;
+}
+.footer-navigation{
+  width: 528px;
+  height: 100%;
+  margin-left: 222px;
+}
+.footer-media{
+  width: 203px;
+  height: 100%;
+  margin-left: 188px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  margin-top: 28px;
+  padding-left: 0;
+  cursor: pointer;
+}
+li{
+  padding-left: 14px;
+  font-weight: bold;
+  font-size: 12px;
+}
+li:hover{
+  text-decoration: underline;
+}
+.M{
+ width: 20px;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ cursor: pointer;
+}
+.M-image{
+  height: 20px;
+  cursor: pointer;
+}
+.end-para{
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0;
+  margin-left: 571px;
+}
